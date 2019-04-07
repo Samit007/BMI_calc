@@ -27,7 +27,8 @@
             <EditText
                 android:id="@+id/etheight"
                 style="@style/myStyle"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:inputType="numberDecimal"/>
 
         </LinearLayout>
 
@@ -51,7 +52,8 @@
             <EditText
                 android:id="@+id/etweight"
                 style="@style/myStyle"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:inputType="numberDecimal"/>
 
         </LinearLayout>
         <TextView
