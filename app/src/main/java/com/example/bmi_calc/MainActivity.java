@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         btncompute.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if(!isEmpty()){
                 float height = Float.parseFloat(etheight.getText().toString());
                 float weight = Float.parseFloat(etweight.getText().toString());
                 Calculation bmi = new Calculation(height, weight);
@@ -43,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "Obesity", Toast.LENGTH_LONG).show();
 
                 }
-            }
+            }}
 
 
         });
